@@ -1,0 +1,55 @@
+body, html {
+  background-color: #82baad;
+  height: 100%;
+  margin: 0;
+  font-family: Futura, sans-serif;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Biking.JPG");
+
+  height: 40%;
+  align-content: center;
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+  position: center;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  width:50%;
+}
+
+.hero-text {
+   text-align: center;
+  position: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: coral;
+}
+
+button {
+  border: none;
+  outline: 100;
+  display: inline-block;
+  padding: 10px 25px;
+  color: teal;
+  background-color: #82baad;
+  text-align: center;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #82baad ;
+  color: teal;
+}
+
+h2 {
+  color: teal;
+  text-align: center;
+}
+h1 {
+  color: teal;
+  text-align: center;
+}
